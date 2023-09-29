@@ -8,6 +8,7 @@ import pymongo
 application = Flask(__name__) # initializing a flask app
 app=application
 
+
 @app.route('/',methods=['GET'])  # route to display the home page
 @cross_origin()
 def homePage():
